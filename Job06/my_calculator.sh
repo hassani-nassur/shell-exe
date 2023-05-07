@@ -1,11 +1,12 @@
 #!/bin/bash
-echo "$2"
+
+#  Premier cas
 if [ "$2" == "*" ]
 then 
     echo $1" * "$2" = "$(($1*$3))
 fi
 
-#Deusieme cas 
+#Deuxieme cas 
 if [ $2 == "+" ]
 then
     echo $1" + "$3" = "$(($1+$3))
